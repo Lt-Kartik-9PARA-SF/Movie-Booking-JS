@@ -16,9 +16,9 @@ nav{
 #list{
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
-    flex-grow: .5;
+   width: 50%;
 }
 
 .d-none{
@@ -31,4 +31,8 @@ nav{
     margin-top: 1rem;
     display: flex;
     justify-content: space-around;
+}
+.movie-img-wrapper{
+    width: 200px;
+    
 }
