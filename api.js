@@ -27,7 +27,7 @@ const fetchMovieAvailability = async (movieName) => {
                 if (m === movieName) resolve(availibility[m])
             }
             resolve([])
-        }, 500)
+        }, 1000)
     })
 }
 

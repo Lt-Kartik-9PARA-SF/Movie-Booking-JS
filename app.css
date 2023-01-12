@@ -66,7 +66,7 @@ main{
 .movie-img-wrapper{
     background-size: cover;
     width: auto;
-    height: 250px;
+    height: 350px;
 }
 #booker{
     display: flex;
@@ -104,10 +104,11 @@ main{
 .seat{
     display: grid;
     place-content: center;
-    /* background-color: pink; */
+   
 }
 .available-seat{
     background-color: green;
+    cursor: pointer;
 }
 .unavailable-seat{
     background-color: red;
